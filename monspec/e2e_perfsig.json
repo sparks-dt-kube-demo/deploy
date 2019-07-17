@@ -8,12 +8,6 @@
             "upperWarning" : 3000
         },
         {
-            "timeseriesId": "com.dynatrace.builtin:host.mem.used",
-            "aggregation": "avg",
-            "upperWarning": 7000,
-            "upperSevere": 8000
-        },
-        {
             "timeseriesId" : "com.dynatrace.builtin:service.failurerate",
             "aggregation" : "avg",
             "tags" : "dt-kube-demo-environment:staging,dt-kube-demo-service:order",
